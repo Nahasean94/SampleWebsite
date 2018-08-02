@@ -1,0 +1,33 @@
+body{
+	background: url("Wallpaper.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+h1{
+	text-align: center;
+	color: white;
+	font-family: Arial Black;
+	font-size: 38px;
+	padding-top: 10px;
+	position: fixed;
+	left: 420px;
+}
+.boxed{
+	padding: 10px 15px;
+	background: white;
+	color: #FFF;
+	width: 100px;
+	position: fixed;
+	top: 70%;
+	left: 620px;
+	font-size: 1.1em;
+	color: blue;
+	font-family: sans-serif;
+	border-radius: 20px;
+}
+.boxed:hover
+{
+    cursor: pointer;
+    background: red;
+    color: white;
+}
